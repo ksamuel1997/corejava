@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <table id='tbl' border=1>
+
+        <script>
+            var rows = prompt("Please enter number of rows", "4");
+            var cols = prompt("Please enter number of coloumns", "3");
+    
+            var r = parseInt(rows);
+            let c= parseInt(cols);
+    
+           
+    
+           //var table = document.createElement('table');
+           var table = document.getElementById('tbl');
+       
+    
+            for(var i=0; i<r; i++){
+                var tr = document.createElement('tr');
+                for(var j=0; j<=c; j++){
+                    var td1 = document.createElement('td');
+            var text1 = document.createTextNode('Text1');
+            td1.appendChild(text1);
+            tr.appendChild(td1);
+    
+    
+                }
+                table.appendChild(tr);
+            }
+    
+       
+    
+    //document.body.appendChild(table);
+        </script>
+
+    </table>
+    
+    
+</body>
+</html>

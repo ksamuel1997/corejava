@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table id="tbl1" border="1">
+        <script>
+            var cols=  prompt("Enete number of cols","4");
+            var rows =  prompt("Enter number of  rows", "5");
+    
+            var c = parseInt(cols);
+            var r = parseInt(rows);
+    
+          //  var table = document.createElement('table');
+          var table = document.getElementById("tbl1");
+    for (var i = 1; i <= r; i++){
+        var tr = document.createElement('tr');   
+    
+        for(var  j =1; j<= c; j++){
+            var td1 = document.createElement('td');
+            var text1 = document.createTextNode('Text1');
+            td1.appendChild(text1);
+            tr.appendChild(td1);
+    
+        }
+       
+     
+        table.appendChild(tr);
+    }
+  //  document.body.appendChild(table);
+
+var col =prompt("Enter column number where you need to change the value","3");
+var row = prompt("Enter row number where you want to chage the value","3");
+var txt = prompt("Enter the value of the cell ","Jesus");
+
+var c=parseInt(col);
+var r=parseInt(row);
+  var myTable = document.getElementById('tbl1');
+  myTable.rows[r].cells[c].innerHTML = txt;
+  myTable.rows[0].cells[0].innerHTML = 'SAM';
+//  myTable.rows[3].cells[3].innerHTML = 'JAYAPRASAD';
+        </script>
+    </table>
+   
+</body>
+</html>

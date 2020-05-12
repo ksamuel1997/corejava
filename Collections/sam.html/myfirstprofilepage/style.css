@@ -1,0 +1,56 @@
+<style>
+        body{
+            margin: 0;
+            width: 100%;
+        }
+        html{
+            width: 100%;
+        }
+        header{
+            background-color:rgb(110, 141, 0);
+            padding: 1em;
+            width: 100%;
+        }
+        
+        .section1{
+            text-align: center;
+            background-image: url('./Images/img1.jpg');
+            background-attachment: fixed;
+            background-size:cover;
+        /*    padding: 5em; */
+        
+        }
+        footer{
+            background-color: rgb(128, 9, 0);
+
+        }
+        .section1 img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+        }
+
+        .section1 a{
+            border: 2px solid blue;
+            padding: 1em;
+            display: block;
+            width :10em;
+            margin:auto;
+            border-radius: 10px;
+        }
+
+        html,body,section{
+            height: 100%;
+            width:100%
+        }
+       
+       .section2{
+           background-image: url('./Images/pexels-photo-995043.jpeg');
+           background-attachment: fixed;
+        
+       }
+       .section1 h2{
+          margin-top: auto
+          
+       }
+    </style> 

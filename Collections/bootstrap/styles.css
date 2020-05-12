@@ -1,0 +1,50 @@
+.navbar-custom {
+    color: rgb(0, 0, 0);
+background-color: rgb(17, 5, 8); 
+
+align-items: center;
+}
+
+.navbar-brand {
+    font-size: initial;
+}
+
+
+.carousel-item  img{
+    size: 50%;
+    height: 80vh;
+    width: 70vw;
+}
+
+
+.container1{
+    display: flex;
+    flex-direction: row;
+justify-content: space-around;
+background-color: black;
+}
+.container1 img{
+    height: 30vh;
+    width: 25vw;
+}
+.container h2{
+    text-align: center;
+}
+.container2{  
+    display: flex;
+    flex-direction: row;
+justify-content: space-around;
+}
+.container2 p{
+    text-align: justify;
+}
+.container2 img{
+    height: 30vh;
+    width: 25vw;
+}
+footer{
+    background-color: cadetblue;
+    text-align: center;
+font-style: italic ;
+    padding: 1em;
+}

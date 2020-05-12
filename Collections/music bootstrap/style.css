@@ -1,0 +1,21 @@
+.navbar-custom {
+    color: rgb(0, 0, 0);
+background-color: rgb(17, 5, 8); 
+
+align-items: center;
+}
+
+.navbar-brand {
+    font-size: initial;
+}
+
+
+.carousel-item  img{
+    size: 50%;
+    height: 80vh;
+    width: 70vw;
+}
+.afooter{
+    
+    background-color: darkorange;
+}
